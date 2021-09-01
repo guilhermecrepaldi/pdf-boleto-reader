@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ambiente virtual
+venv/
+.env
+.venv/
+
+# Banco de dados
+db/boletos.db
+*.sqlite
+*.sqlite3
+
+# Exportações
+*.csv
+*.json
+*.html
+exportados/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDFs de exemplo (não commitar boletos reais)
+samples/*.pdf
+!samples/README.md
